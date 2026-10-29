@@ -97,6 +97,9 @@ Its checks are heuristic and may produce false positives or false negatives. It 
 - **ANSI terminal output** — Readable command-line reports
 - **JSON** — Machine-readable audit results
 
+## Screencast
+https://github.com/user-attachments/assets/e8c8e199-8948-4674-8519-5b96b25b80d6
+
 ## About Me 
 ✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
 You can learn more about me and my work at [sufyanism.com](https://sufyanism.com/) or connect with me on [Linkedin](https://www.linkedin.com/in/sufyanism)
