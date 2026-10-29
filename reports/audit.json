@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-29T06:08:47Z",
+  "hostname": "Shelyyy",
+  "os": "windows",
+  "architecture": "amd64",
+  "duration": "24ms",
+  "checks_run": 7,
+  "critical": 0,
+  "high": 0,
+  "medium": 0,
+  "low": 1,
+  "findings": [
+    {
+      "id": "SYS-001",
+      "severity": "INFO",
+      "title": "Non-Linux host",
+      "detail": "Linux-specific checks may not apply.",
+      "remediation": "Run on Linux for the intended baseline."
+    },
+    {
+      "id": "SSH-001",
+      "severity": "INFO",
+      "title": "SSH config not found/readable",
+      "detail": "No standard sshd_config could be read; SSH may not be installed or permissions may be restricted.",
+      "remediation": "Verify effective SSH settings if SSH is used."
+    },
+    {
+      "id": "FW-004",
+      "severity": "LOW",
+      "title": "Firewall status not confirmed",
+      "detail": "No supported active firewall could be confirmed; this does not prove a firewall is absent.",
+      "remediation": "Verify host and network firewall policies."
+    },
+    {
+      "id": "NET-001",
+      "severity": "INFO",
+      "title": "TCP socket check unavailable",
+      "detail": "Could not read /proc/net/tcp.",
+      "remediation": "Inspect sockets with ss -lntup."
+    },
+    {
+      "id": "PERM-002",
+      "severity": "INFO",
+      "title": "SUID inventory sampled",
+      "detail": "0 SUID entries in common binary directories; not a complete filesystem scan.",
+      "remediation": "Review unexpected SUID files against the distribution baseline."
+    },
+    {
+      "id": "PKG-002",
+      "severity": "INFO",
+      "title": "Package freshness not checked",
+      "detail": "No supported package metadata signal detected.",
+      "remediation": "Check security updates with the native package manager."
+    }
+  ]
+}
