@@ -96,7 +96,6 @@ Its checks are heuristic and may produce false positives or false negatives. It 
 - **Linux interfaces** — Host configuration and system inspection
 - **ANSI terminal output** — Readable command-line reports
 - **JSON** — Machine-readable audit results
-- 
 
 ## About Me 
 ✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
